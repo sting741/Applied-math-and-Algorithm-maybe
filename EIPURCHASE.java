@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class EIPURCHASE {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        DecimalFormat dc = new DecimalFormat("0.#######");
+        DecimalFormat dc = new DecimalFormat("0.###");
         double V = sc.nextDouble();
         int T = sc.nextInt();
         double N = sc.nextDouble();
